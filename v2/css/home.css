@@ -1,0 +1,120 @@
+.home-container {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.profile-container {
+  flex: 1;
+  height: 200px;
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 2px;
+  margin-top: 0;
+}
+
+.home-container .total-container {
+  background-color: rgb(240, 240, 240);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 2px;
+  margin-top: 0;
+}
+
+.home-container .total-container .total-title,
+.subhome-container .subtotal-container .subtotal-title {
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.home-container .total-container .total-description {
+  flex: 2;
+  margin: 10px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.home-container .profile-container img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 20px;
+}
+
+.home-container .profile-container .profile-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  margin-right: 20px;
+}
+
+.home-container .profile-container .profile-info .profile-name {
+  margin: 0;
+  font-size: 30px;
+}
+
+.home-container .profile-container .profile-info .btn-update-profile {
+  background-color: rgb(30, 181, 201);
+  text-decoration: none;
+}
+
+.home-container .profile-container .profile-info .btn-update-profile:hover {
+  background-color: rgb(30, 124, 201);
+}
+
+.home-container .profile-container .profile-info .btn-update-profile:active {
+  background-color: darkblue;
+}
+
+.home-container .profile-container .profile-info .btn-logout {
+  background-color: rgb(223, 73, 73);
+  text-decoration: none;
+}
+
+.home-container .profile-container .profile-info .btn-logout:hover {
+  background-color: rgb(223, 39, 39);
+}
+
+.home-container .profile-container .profile-info .btn-logout:active {
+  background-color: red;
+}
+
+.home-container .profile-container .profile-info .btn-update-profile,
+.home-container .profile-container .profile-info .btn-logout{
+  width: 150px;
+  border-radius: 5px;
+  padding:10px 30px;
+  color: white;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.subhome-container {
+  display: flex;
+  flex-direction: row;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding: 20px;
+}
+
+.subhome-container .subtotal-container {
+  background-color: rgb(240, 240, 240);
+  margin: 10px;
+  border-radius: 2px;
+}
+
+.subhome-container .subtotal-container .subtotal-description {
+  margin: 10px;
+  border: 1px solid black;
+  padding: 10px;
+  flex: 1;
+}
