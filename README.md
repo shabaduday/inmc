@@ -10,8 +10,9 @@ This version is the upgraded which includes bootstrap framework and javascript p
 # Changelogs
 
 v1.1
-- inmc.sql
--- acc_id removed from loan_types table and insert values
+
+inmc.sql
+- acc_id removed from loan_types table and insert values
 
 loan-type.php, edit_loan.php, delete_loan.php, update_loan.php, delete_loan_now.php
 - certain changes on this selected files above. Check comments inside.
