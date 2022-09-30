@@ -1,0 +1,55 @@
+.header {
+  height: 65px;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  border: 1px solid rgb(228, 228, 228);
+  z-index: 100;
+}
+
+.header .header-link {
+  flex: 1;
+  align-items: center;
+}
+
+.header .header-link .btn-home,
+.header .header-link .btn-loan-application,
+.header .header-link .btn-payments,
+.header .header-link .btn-monthly-share,
+.header .header-link .btn-borrower,
+.header .header-link .btn-loan-type {
+  text-decoration: none;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  display: flex;
+  height: 100%;
+  flex: 1;
+  font-size: 18px;
+}
+
+.header .header-link .btn-home:hover,
+.header .header-link .btn-loan-application:hover,
+.header .header-link .btn-payments:hover,
+.header .header-link .btn-monthly-share:hover,
+.header .header-link .btn-borrower:hover,
+.header .header-link .btn-loan-type:hover {
+  background-color: rgb(30, 124, 201);
+  flex: 1;
+}
+
+.header .header-link .btn-home:active,
+.header .header-link .btn-loan-application:active,
+.header .header-link .btn-payments:active,
+.header .header-link .btn-monthly-share:active,
+.header .header-link .btn-borrower:active,
+.header .header-link .btn-loan-type:active {
+  background-color: darkblue;
+}
